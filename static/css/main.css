@@ -1,3 +1,25 @@
-h1 {
-    font-size: 60px;
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Stylish&display=swap');
+
+/*
+Use of Google fonts
+font-family: 'Stylish', sans-serif; (for headers)
+font-family: 'Quicksand', sans-serif; (for paragraphs)
+*/
+
+body {
+    margin: 0;
+}
+
+#main-header {
+    width: 100%;
+    text-align: center;
+    height: 300px;
+    background-color: #07518E;
+}
+
+#main-header h1 {
+    margin-top: 0px;
+    padding-top: 100px;
+    font-family: 'Stylish', sans-serif;
+    font-size: 55px;
 }
